@@ -1,0 +1,143 @@
+.process {
+    padding: 200px 0;
+}
+ul.process_grid {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin: 0 -20px;
+    padding: 0;
+    position: relative;
+}
+ul.process_grid li:not(:last-child):before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 30px;
+    width: 0;
+    height: 2px;
+    background-color: #512873;
+    transition: all 0.4s ease;
+}
+ul.process_grid li.activedata{
+	opacity: 1;
+}
+ul.process_grid li.activedata:before{
+	width: 100%;
+}
+ul.process_grid li {
+    flex: 20%;
+    max-width: 20%;
+    padding: 0 50px 0 0px;
+    position: relative;
+    opacity: 0.5;
+}
+ul.process_grid li .number {
+    width: 70px;
+    height: 70px;
+    display: flex;
+    color: #0C1750;
+    font-size: 22px;
+    line-height: 32px;
+    margin-bottom: 15px;
+    font-family: "le-monde-courrier-std-2";
+    font-weight: 700;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background: linear-gradient(to right, #555781, #b6508d);
+    border-radius: 50px;
+    z-index: 99;
+}
+ul.process_grid li .number:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    background: #fff;
+    border-radius: 50px;
+    width: 85%;
+    height: 85%;
+    margin: auto;
+}
+ul.process_grid li .simple_card_heading {
+    font-weight: 700;
+    color: #0C1750;
+    font-size: 22px;
+    line-height: 32px;
+    margin-bottom: 10px;
+    font-family: "le-monde-courrier-std-2";
+}
+ul.process_grid li .process_step_description p {
+    font-size: 20px;
+    line-height: 30px;
+    color: #0C1750;
+    font-family: 'ProximaNova-Medium';
+}
+ul.process_grid li:last-child {
+    padding-right: 0;
+}
+
+@media(max-width: 1199px){
+	ul.process_grid li {
+	    padding: 0 25px 50px 0px;
+	    flex: 33.33%;
+	    max-width: 33.33%;
+	}
+	ul.process_grid li .simple_card_heading {
+	    font-size: 20px;
+	    line-height: 30px;
+	}
+	ul.process_grid li .process_step_description p {
+	    font-size: 18px;
+	    line-height: 28px;
+	}
+}
+@media(max-width: 767px){
+	ul.process_grid li {
+	    flex: 50%;
+	    max-width: 50%;
+	}
+	.process {
+	    padding: 100px 0;
+	}
+}
+@media(max-width: 576px){
+	ul.process_grid li {
+	    flex: 100%;
+	    max-width: 100%;
+        opacity: 1;
+	    padding: 0 0px 30px 50px;
+	}
+    ul.process_grid li h5, ul.process_grid li div {
+        opacity: 0.5;
+    }
+    ul.process_grid li.activedata *{
+        opacity: 1;
+    }
+	ul.process_grid li:not(:last-child):before {
+	    width: 2px;
+	    height: 100%;
+	    left: 20px;
+	}
+	ul.process_grid li .number {
+	    position: absolute;
+	    left: 0;
+	    top: 0;
+	    width: 40px;
+	    height: 40px;
+	    font-size: 16px;
+	}
+	ul.process_grid li .simple_card_heading {
+	    font-size: 18px;
+	    line-height: 28px;
+	    margin-bottom: 0;
+	}
+	ul.process_grid li .process_step_description p {
+	    font-size: 16px;
+	    line-height: 26px;
+	}
+}

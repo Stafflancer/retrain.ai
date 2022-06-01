@@ -1,0 +1,173 @@
+.hero_banner_common_content_block {
+    padding: 150px 0;
+}
+.hero_banner_common_content_block .heading-1{
+	font-size: 42px;
+    line-height: 52px;
+    font-family: "le-monde-courrier-std-2";
+    margin-bottom: 22px;
+    font-weight: 700;
+}
+.bg-default-gradient {
+    background: transparent linear-gradient(120deg, #0C1750 0%, #000000 100%) 0% 0% no-repeat padding-box;
+}
+.hero_banner_common_content_block .hero-banner-content {
+    font-family: 'ProximaNova-Regular';
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: normal;
+    margin-bottom: 46px;
+}
+.get-a-demo .btn {
+    padding: 12px 41px;
+}
+.background-logomark:before {
+    position: absolute;
+    content: '';
+    background: url(/wp-content/uploads/2022/03/logomark-triangle.png);
+    width: 917px;
+    height: 906px;
+    top: 160px;
+    right: 0;
+    background-repeat: no-repeat;
+    background-position: right;
+/*    -webkit-animation: loading 15s linear infinite;
+    -moz-animation: loading 15s linear infinite;*/
+}
+.background-logomark {
+    position: relative;
+    overflow: hidden;
+}
+
+/*Platform*/
+body.page-id-667 .hero_banner_common_content_block .banner-img {
+    position: relative;
+    right: 32px;
+    top: 30px;
+}
+
+/*Why retrain*/
+/*body.page-id-757 #hero-banner-common-content {
+    padding: 100px 0 133px;
+}*/
+body.page-id-757 #hero-banner-common-content .banner-img,
+body.page-id-1241 #hero-banner-common-content .banner-img{
+    text-align: center !important;
+}
+
+/*Company*/
+body.page-id-1241 #hero-banner-common-content {
+    padding: 100px 0 122px;
+}
+body.page-id-1241 .get-a-demo .btn {
+    padding: 12px 29.5px;
+}
+
+/*Media Query*/
+@media (min-width: 1251px) and (max-width: 1440px){
+    body.page-id-667 .hero_banner_common_content_block {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+}
+@media (min-width: 992px) and (max-width: 1250px){
+    body.page-id-667 .hero_banner_common_content_block {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    .hero_banner_common_content_block .heading-1 {
+        font-size: 32px;
+        line-height: 40px;
+    }
+    body.page-id-757 #hero-banner-common-content,
+    body.page-id-1241 #hero-banner-common-content {
+        padding: 130px 0;
+    }
+    /*.card-block-inner {
+        padding: 0 30px !important;
+        margin-top: 100px !important;
+    }*/
+}
+@media (min-width: 768px) and (max-width: 991px){
+    body.page-id-757 #hero-banner-common-content,
+    body.page-id-1241 #hero-banner-common-content {
+        padding: 130px 0;
+    }
+    /*.card-block-inner {
+        height: 550px !important;
+        padding: 0 30px !important;
+        margin-top: 100px !important;
+    }*/
+    .cards_with_round_images_content_block .card-heading {
+        font-size: 18px !important;
+        line-height: 24px !important;
+    }
+    .view-all-cases {
+        margin-top: 50px !important;
+    }
+    .leadership {
+        padding: 50px 0 0 !important;
+    }
+}
+@media (max-width: 991px){
+    .background-logomark:before{
+        background-size: contain;
+        width: 100%;
+        height: 100%;
+    }
+    body.page-id-1241 #hero-banner-common-content .banner-img {
+        margin-top: 30px !important;
+    }
+    .cards_with_round_images_content_inner .paragraph-content{
+        font-size: 16px !important;
+        line-height: 24px !important;
+    }
+    .cards_with_round_images_content_block {
+        padding: 50px 0 !important;
+    }
+    .hero_banner_common_content_block .hero-banner-content{
+        margin-bottom: 25px;
+    }
+    .hero_banner_common_content_block .col-12.pr-0{
+        padding-right: 15px !important;
+    }
+    .hero_banner_common_content_block .heading-1 {
+        font-size: 32px;
+        line-height: 40px;
+    }
+    body.page-id-667 .hero_banner_common_content_block .banner-img{
+        top: 0;
+        right: 0;
+        width: 100%;
+    }
+    body.page-id-667 .hero_banner_common_content_block {
+        padding-top: 100px;
+            padding-bottom: 70px;
+    }
+}
+@media (max-width: 767px){
+    body.page-id-757 #hero-banner-common-content .banner-img,
+    body.page-id-1241 #hero-banner-common-content .banner-img{
+        margin-top: 10px;
+    }
+    body.page-id-757 #hero-banner-common-content,
+    body.page-id-1241 #hero-banner-common-content {
+        padding: 100px 0 40px;
+    }
+    .hero_banner_common_content_block .heading-1{
+        font-size: 30px;
+        line-height: 33px;
+    }
+    .hero_banner_common_content_block .hero-banner-content {
+        font-size: 15px;
+        line-height: 24px;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 500px){
+    .hero_banner_common_content_block .heading-1 {
+        font-size: 22px;
+        line-height: 31px;
+    }
+}

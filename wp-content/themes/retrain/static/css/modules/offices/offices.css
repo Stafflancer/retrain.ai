@@ -1,0 +1,97 @@
+.offices {
+    padding: 200px 0;
+}
+.offices_grid {
+    max-width: 83%;
+    margin: 0 auto;
+    position: relative;
+}
+.offices_grid:before, .offices_grid:after {
+    content: "";
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    z-index: 1;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.offices_grid:before {
+    left: -40px;
+    bottom: -56px;
+    background-image: url(https://dev-retrainai.pantheonsite.io/wp-content/uploads/2022/05/curve-left-big.png);
+}
+.offices_grid:after {
+    right: -40px;
+    top: -56px;
+    background-image: url(https://dev-retrainai.pantheonsite.io/wp-content/uploads/2022/05/curve-right-big.png);
+}
+.offices_grid .simple-icons-block {
+    overflow: hidden;
+    position: relative;
+    min-height: 238px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 420px;
+    margin: 0 auto;
+}
+.simple-icons-block .hover-content {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background: transparent linear-gradient(0deg, rgb(194 12 92 / 50%) 0%, rgb(192 8 95 / 40%) 100%) 0% 0% no-repeat padding-box;
+    transition: all 0.4s ease;
+}
+.simple-icons-block .offices_address{
+	color: #fff;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: 'ProximaNova-Medium';
+    transition: all 0.4s ease;
+    opacity: 0;
+    transform: scale(0);
+}
+.simple-icons-block:hover .offices_address {
+    opacity: 1;
+    transform: scale(1);
+}
+.simple-icons-block .hover-content h3 {
+    color: #fff;
+    transition: all 0.4s ease;
+    transform: translate(0px, 30px);
+}
+.simple-icons-block:hover .hover-content h3{
+	transform: translate(0px, 0px);
+}
+.newrow-1, .newrow-3 {
+    background-image: url(https://dev-retrainai.pantheonsite.io/wp-content/uploads/2022/05/new-york@2x.png);
+}
+.newrow-2 {
+    background-image: url(https://dev-retrainai.pantheonsite.io/wp-content/uploads/2022/05/london@2x.png);
+}
+@media(max-width: 991px){
+	.offices_grid .simple-icons-block{
+		margin-bottom: 40px;
+	}
+	
+}
+@media(max-width: 767px){
+	.offices_grid {
+	    max-width: 100%;
+	}
+	.offices_grid:before, .offices_grid:after{
+		width: 0px;
+		height: 0px;
+	}
+	.offices {
+	    padding: 100px 0;
+	}
+}

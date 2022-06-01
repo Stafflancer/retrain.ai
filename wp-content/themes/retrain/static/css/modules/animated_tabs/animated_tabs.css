@@ -1,0 +1,231 @@
+.crack-science-module {
+    padding-top: 87px;
+    margin-bottom: 190px;
+}
+.crack-module-inner {
+    margin: 97px 0 0px;
+    position: relative;
+    padding: 0 0 50px;
+}
+.crack-module-inner:before{
+    position: absolute;
+    content: '';
+    left: 0;
+    top: 0;
+    bottom: 0;
+    background: #0C1750;
+    width: 100%;
+    height: 766px;
+    max-width: 806px;
+}
+.animated-tabs-main {
+    margin-left: 9px;
+    max-width: 526px;
+    padding-top: 44px;
+}
+.animated-tabs-content p {
+    margin-bottom: 0;
+}
+.animated-tab-paragraph-content-main {
+    font-size: 20px;
+    line-height: 30px;
+    color: #0C1750;
+    text-align: center;
+    max-width: 801px;
+    margin: 19px auto 0;
+    font-family: 'ProximaNova-Medium';
+}
+.progress-bar-purple {
+    width: 100%;
+    height: 11px;
+    background: rgb(115 30 167 / 20%);
+    position: relative;
+    margin-bottom: 21px;
+}
+.animated-tabs-inner {
+    opacity: 40% !important;
+}
+.activedata{
+    opacity: 100% !important;
+}
+.number-1{
+    opacity: 100% !important;
+}
+/*.progress-bar-purple.fill-dark:before {
+    position: absolute;
+    content: '';
+    width: 145px;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    background: #731EA7;
+}*/
+.fill-dark {
+    left: 0;
+    background: #731EA7;
+    height: 10px;
+    position: absolute;
+    top: 0;
+}
+.animated-tabs:not(:first-child) {
+    margin-top: 80px;
+}
+.heading-progress {
+    color: #0C1750;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 35px;
+    margin-bottom: 18px;
+    font-family: "le-monde-courrier-std-2";
+}
+.animated-tabs-content {
+    color: #0C1750;
+    font-family: 'ProximaNova-Regular';
+    font-size: 18px;
+    line-height: 28px;
+}
+.mt-50{
+    margin-top: 50px;
+}
+.view-platform .btn {
+    padding: 12px 29.23px !important;
+}
+.compare-candidate p {
+    margin-bottom: 0;
+}
+.compare-candidate {
+    max-width: 804px;
+    padding-top: 58px;
+    margin-left: 8px;
+}
+.compare-candidate.activedata {
+    display: block !important;
+}
+.compare-candidate.activedata {
+    animation-delay: 4.5s;
+    animation: fadeIn 2s;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+
+/*Media Query*/
+@media (min-width: 1451px) and (max-width: 1680px){
+    .crack-module-inner:before{
+        width: 720px;
+    }
+}
+@media (min-width: 1200px) and (max-width: 1450px){
+    .crack-module-inner:before{
+        width: 50%;
+    }
+}
+@media (min-width: 992px) and (max-width: 1450px){
+    .crack-science-module{
+        margin-bottom: 100px;
+    }
+    .crack-module-inner{
+        margin: 35px 0px 0px;
+    }
+    
+}
+
+@media (min-width: 992px) and (max-width: 1199px){
+    .animated-tabs-main{
+        margin-left: 0;
+    }
+    .animated-tabs:not(:first-child) {
+        margin-top: 45px;
+    }
+    .crack-module-inner{
+        margin: 40px 0 0px;
+    }
+    .crack-module-inner:before{
+        height: 700px;
+        width: 40%;
+    }
+    .crack-science-module{
+        margin-bottom: 50px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+    .animated-tabs-main {
+        margin-left: 0px;
+        max-width: 100%;
+        margin-top: 100px;
+    }
+    .animated-tabs:not(:first-child) {
+        margin-top: 50px;
+    }
+    .crack-module-inner:before{
+        width: 70%;
+        height: 50%;
+    }
+    .crack-science-module {
+        padding-top: 30px;
+        margin-bottom: 0;
+    }
+    .crack-module-inner{
+        margin: 50px 0 0px;
+    }
+}
+
+@media (max-width: 767px){
+    .crack-module-inner .pl-0{
+        padding-left: 15px !important;
+    }
+    .compare-candidate{
+        padding-top: 0;
+        margin-left: 0;
+    }
+    .crack-module-inner {
+        margin: 0 0 0px;
+        padding: 30px 0 0;
+    }
+    .animated-tabs-content{
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .crack-science-module {
+        padding-top: 30px;
+        margin-bottom: 30px;
+    }
+    .crack-module-inner:before{
+        display: none;
+    }
+    .animated-tabs-main {
+        margin-left: 0;
+        max-width: 100%;
+        padding-top: 30px;
+    }
+    .mt-50 {
+        margin-top: 30px;
+    }
+    .heading-progress{
+        margin-bottom: 5px;
+    }
+    .animated-tabs:not(:first-child) {
+        margin-top: 42px;
+    }
+}
+
+
+@media (max-width: 500px){
+    .animated-tabs-inner {
+        margin-bottom: 30px;
+        opacity: 100% !important;
+    }
+    .heading-progress{
+        font-size: 20px;
+        line-height: 29px;
+    }
+}

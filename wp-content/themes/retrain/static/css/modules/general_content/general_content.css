@@ -1,0 +1,71 @@
+.general_content {
+    padding: 100px 0;
+}
+.positionCenter{
+    text-align: center;
+}
+.general_content .heading-title-dark {
+    font-size: 33px;
+    line-height: 43px;
+    margin-bottom: 50px;
+}
+.general_content .cards_with_round_images_content {
+    font-size: 20px;
+    line-height: 30px;
+    color: #0C1750;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-family: 'ProximaNova-Medium';
+}
+/*.genral_contnet_button .btn {
+    padding: 12px 30px;
+}*/
+.width92\% {
+    width: 92%;
+    margin: 0 auto;
+}
+.width83\% {
+    width: 83%;
+    margin: 0 auto;
+}
+.width75\% {
+    width: 75%;
+    margin: 0 auto;
+}
+.width66\% {
+    width: 66%;
+    margin: 0 auto;
+}
+.width58\% {
+    width: 58%;
+    margin: 0 auto;
+}
+.width50\% {
+    width: 50%;
+    margin: 0 auto;
+}
+
+/*Media Query*/
+@media (min-width: 992px) and (max-width: 1450px){
+    .general_content{
+        padding: 60px 0;
+    }
+}
+@media (max-width: 991px){
+    .general_content  {
+        padding: 40px 0;
+    }
+    .general_content .cards_with_round_images_content{
+        width: 100% !important;
+    }
+}
+
+@media (max-width: 767px){
+    .general_content {
+        padding: 40px 0 !important;
+    }
+    .general_content .cards_with_round_images_content{
+        font-size: 16px;
+        line-height: 24px;
+    }
+}

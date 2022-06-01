@@ -1,0 +1,15 @@
+<svg id="Checkmark" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="27.359" height="27.358" viewBox="0 0 27.359 27.358">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#512873"/>
+      <stop offset="1" stop-color="#bd0362"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-3" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#0c1750"/>
+      <stop offset="1" stop-color="#bd0362"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_80100" data-name="Group 80100" transform="translate(-6.461 -12.321)">
+    <path id="Union_3" data-name="Union 3" d="M1849-3281.885V-3295h3.935v9.181h21.641v3.934Z" transform="translate(1028.938 3667.762) rotate(-45)" fill="url(#linear-gradient-3)"/>
+  </g>
+</svg>

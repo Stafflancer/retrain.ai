@@ -1,0 +1,153 @@
+@import '../../src/scss/vars';
+
+.hero_banner_home_block {
+	/*settings*/
+	&.heading_black h1 {
+		color: $black-type-1;
+	}
+
+	&.heading_white h1 {
+		color: $white-type-1;
+	}
+
+	&.text_black .tagline {
+		color: $black-type-1;
+	}
+
+	&.text_white .tagline {
+		color: $white-type-1;
+	}
+
+	/*settings*/
+
+	.overlay {
+		@media (min-width: $xs) {
+			display: none !important;
+		}
+	}
+
+	&.video-bg {
+		@media (min-width: $xs) {
+			background-image: none !important;
+		}
+
+		@media (max-width: $xs) {
+			video {
+				display: none;
+			}
+
+			.hero_banner_home_block .mobile-background-figure {
+				display: none;
+			}
+		}
+	}
+
+	.main-section-holder {
+		min-height: 100vh;
+		padding-bottom: 55px;
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-end;
+
+		@media (max-width: $xs) {
+			justify-content: flex-start;
+			padding-bottom: 30px;
+		}
+
+		.container {
+			width: 100%;
+			max-width: 1320px;
+			box-sizing: border-box;
+		}
+	}
+
+	.section-holder {
+		height: 100%;
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-end;
+		padding-bottom: 329px;
+
+		@media (max-width: 1920px) {
+			padding-bottom: 200px;
+		}
+
+		@media (max-width: 1400px) {
+			padding-bottom: 80px;
+		}
+
+		@media (max-width: $xs) {
+			padding-bottom: 30px;
+			padding-top: 200px;
+			text-align: center;
+		}
+	}
+
+	.tagline {
+		font-size: 24px;
+		font-family: $museo-slab;
+		font-weight: 700;
+
+		@media (max-width: $md) {
+			font-size: 22px;
+		}
+		@media (max-width: $sm) {
+			font-size: 20px;
+		}
+		@media (max-width: $xs) {
+			font-size: 16px;
+			margin-bottom: 10px;
+		}
+	}
+
+	h1 {
+		font-family: $pt-sans;
+		font-weight: 700;
+		margin: 0;
+	}
+
+	.btn-holder {
+		margin-top: 28px;
+
+		@media (max-width: $xs) {
+			margin-top: 20px;
+		}
+
+		.button {
+			min-width: 285px;
+
+			@media (max-width: $xs) {
+				min-width: 0;
+			}
+		}
+	}
+
+	.customers-slider {
+		@media (max-width: $xs) {
+			margin-top: auto;
+		}
+
+		.slick-track {
+			display: flex;
+			align-items: center;
+		}
+
+		.item {
+			padding: 0 10px;
+			display: flex;
+			justify-content: center;
+
+			img {
+				display: block;
+				max-height: 48px;
+				max-width: 113px;
+
+				@media (max-width: $xs) {
+					max-height: 33px;
+					max-width: 80px;
+					width: 100%;
+				}
+			}
+		}
+	}
+}

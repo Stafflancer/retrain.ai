@@ -1,0 +1,119 @@
+.hero_banner_home {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 0 0;
+}
+.bg-default-gradient {
+    background: transparent linear-gradient(120deg, #0C1750 0%, #000000 100%) 0% 0% no-repeat padding-box;
+}
+.hero-background-inner{
+	padding-top: 60px;
+}
+.workforce-plan {
+    font-size: 28px;
+    line-height: 38px;
+    margin-bottom: 34px;
+    max-width: 586px;
+    font-family: 'ProximaNova-Bold';
+}
+.heading-1 {
+    font-size: 54px;
+    line-height: 64px;
+    margin-bottom: 21px;
+    font-family:"le-monde-courrier-std-2";
+    font-weight: 700;
+}
+.hero-banner-content {
+    font-family: 'ProximaNova-Regular';
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: normal;
+    margin-bottom: 41px;
+}
+.hero-banner-content p{
+    margin-bottom: 0;
+}
+.btn-talk .btn {
+    padding: 10px 38.41px;
+}
+.hero_content-inner {
+    position: relative;
+    top: -205px;
+}
+.banner-img img {
+    max-width: 850px;
+    margin-left: auto;
+    width: 100%;
+}
+
+/*Media Query*/
+@media (min-width: 992px) and (max-width: 1199px){
+    .hero_banner_home {
+        height: auto;
+        padding: 100px 0 0;
+    }
+    .workforce-plan{
+        font-size: 23px;
+    }
+    .heading-1 {
+        font-size: 45px;
+        line-height: 50px;
+    }
+    .hero-banner-content{
+        font-size: 18px;
+        line-height: 26px;
+    }
+}
+
+@media (max-width: 991px){
+    .hero_content-inner{
+        top: 0 !important;
+    }
+    .banner-img {
+        margin-bottom: 40px;
+        margin-top: 20px;
+    }
+    .hero_banner_home{
+        height: auto;
+    }
+    .hero-background-inner {
+        padding-top: -60px;
+        text-align: center;
+    }
+    .hero-background-inner .col-lg-5 {
+        order: 1;
+        padding-right: 15px !important;
+    }
+    .btn-talk{
+        margin-bottom: 40px;
+    }
+    .workforce-plan br{
+        display: none;
+    }
+    .workforce-plan{
+        margin: 0 auto 18px;
+    }
+}
+
+@media (max-width: 767px){
+    .workforce-plan{
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .hero-banner-content{
+        font-size: 15px;
+        line-height: 24px;
+        margin-bottom: 20px;
+    }
+    .heading-1{
+        font-size: 30px;
+        line-height: 33px;
+    }
+}
+
+@media (max-width: 500px){
+    .workforce-plan {
+        font-size: 16px;
+    }
+}

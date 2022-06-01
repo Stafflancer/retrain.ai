@@ -1,0 +1,49 @@
+.cards_with_overlay {
+    padding: 115px 0;
+}
+.cards_with_overlay .container {
+    max-width: 1300px;
+}
+.heading-area{
+	margin-bottom: 60px;
+}
+.cards_with_overlay_js-block {
+    max-width: 387px;
+    margin: 0 auto 40px;
+    position: relative;
+    overflow: hidden;
+}
+.cards_with_overlay_js-block .cards_with_overlay_image>img {
+    width: 100%;
+    border-radius: 5px;
+}
+.cards_with_overlay_js-block .each-cards-title {
+    position: absolute;
+    left: 0;
+    font-family: "le-monde-courrier-std-2";
+    right: 0;
+    top: 0;
+    background-color: rgb(12 23 80 / 60%);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    padding: 25px 25px 50px;
+    transition: all 0.4s ease;
+    border-radius: 5px;
+}
+.cards_with_overlay_js-block .each-cards-title h5 {
+    color: #fff;
+    font-size: 22px;
+    line-height: 32px;
+    font-weight: 700;
+}
+.cards_with_overlay_js-block .each-cards-title:hover {
+    background: transparent linear-gradient(0deg, #2E379DB2 0%, #2E379D0D 100%) 0% 0% no-repeat padding-box;
+}
+@media(max-width: 991px){
+    .cards_with_overlay {
+        padding: 70px 0;
+    }
+}

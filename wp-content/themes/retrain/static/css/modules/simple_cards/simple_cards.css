@@ -1,0 +1,100 @@
+/*Simple Card*/
+.simple_cards {
+    padding: 213px 0;
+}
+.simple_cards_inner{
+    max-width: 1360px;
+    margin: 0 auto;
+}
+.simple_card_heading {
+    font-size: 22px;
+    line-height: 32px;
+    margin-bottom: 12px;
+    font-weight: 700;
+    font-family: "le-monde-courrier-std-2";
+}
+.simple_card_content {
+    font-size: 22px;
+    line-height: 32px;
+    font-family: 'ProximaNova-Medium';
+    color: #A09FA5;
+}
+.simple_cards-block {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 20px #19191933;
+    padding: 0px 58px 148px 58px;
+}
+.simple_cards-block .card-img {
+    width: 160px;
+    height: 160px;
+    background-color: #fff;
+    box-shadow: 0px 0px 20px #19191933;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 160px;
+    margin-bottom: 30px;
+    margin-top: -50px;
+}
+.simple_card_content p{
+    margin-bottom: 0;
+}
+.grid-Two {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+.grid-Three {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+}
+.grid-Four {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 30px;
+}
+
+/*Media Query*/
+@media (min-width: 992px) and (max-width: 1450px){
+    .simple_cards{
+        padding: 150px 0;
+    }
+}
+@media (max-width: 1199px){
+    .simple_cards-block {
+        padding: 0px 30px 70px 30px;
+    }
+}
+@media (max-width: 991px){
+    .simple_cards {
+        padding: 100px 0;
+    }
+    .simple_cards-block {
+        padding: 0px 35px 35px;
+    }
+    .grid-Four,
+    .grid-Three,
+    .grid-Two{
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+    .simple_cards-block .card-img {
+        margin: 35px 0 20px;
+        width: 100px;
+        height: 100px;
+        line-height: 100px;
+    }
+    .simple_cards-block .card-img img {
+        max-width: 60px;
+    }
+}
+@media (max-width: 767px){
+    .simple_card_content{
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .simple_card_heading {
+        font-size: 20px;
+        line-height: 30px;
+    }
+}

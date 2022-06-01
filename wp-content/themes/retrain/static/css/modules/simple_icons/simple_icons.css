@@ -1,0 +1,50 @@
+.simple_icons {
+    padding: 200px 0 90px;
+}
+.cards_with_round_images_content {
+    font-size: 20px;
+    line-height: 30px;
+    color: #0C1750;
+    text-align: center;
+    max-width: 801px;
+    margin: 19px auto 90px;
+    font-family: 'ProximaNova-Medium';
+}
+.simple-icons-block .simple_icons_image {
+    margin-bottom: 32px;
+}
+.simple-icons-block h2 {
+    font-weight: 700;
+    color: #0C1750 !important;
+    font-size: 22px;
+    line-height: 32px;
+    margin-bottom: 0;
+    font-family: "le-monde-courrier-std-2";
+}
+.simple-icons-block {
+    margin-bottom: 111px;
+}
+
+@media (max-width: 991px) {
+	.simple_icons {
+	    padding: 100px 0;
+	}
+	.simple_icons .container {
+	    max-width: 100%;
+	}
+}
+@media (max-width: 767px) {
+	.simple-icons-block h2 {
+	    font-size: 18px;
+	    line-height: 28px;
+	}
+	.cards_with_round_images_content{
+		font-size: 16px;
+	    line-height: 24px;
+	}
+}
+@media (max-width: 575px) {
+	.simple-icons-block {
+	    margin-bottom: 50px;
+	}
+}

@@ -1,0 +1,50 @@
+.carousel_logos {
+    padding: 146px 0;
+}
+#logos-slider {
+    margin-top: 44px;
+}
+#logos-slider .card-logos {
+    background: #fff;
+    box-shadow: 0px 0px 10px #0000001a;
+    border-radius: 5px;
+    padding: 20px;
+    min-height: 120px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+#logos-slider .card-logos img {
+    max-height: 70px;
+    object-fit: contain;
+    width: auto;
+    margin: 0 auto;
+}
+#logos-slider .owl-dots {
+    margin-top: 43px;
+}
+#logos-slider .owl-dots .owl-dot span {
+    margin: 0 7px;
+    width: 15px;
+    height: 15px;
+    background: transparent;
+    border: solid 1px #fff;
+}
+#logos-slider .owl-dots .owl-dot.active span {
+    background: #fff;
+}
+@media(max-width: 1199px){
+	.carousel_logos {
+	    padding: 100px 0;
+	}
+}
+@media(max-width: 991px){
+	.carousel_logos {
+	    padding: 70px 0;
+	}
+}
+@media(max-width: 767px){
+	.carousel_logos {
+	    padding: 50px 0;
+	}
+}

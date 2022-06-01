@@ -1,0 +1,120 @@
+.hero-banner-featured-post {
+    padding: 140px 0 72px;
+}
+.banner_featured_post {
+    background-color: #fff;
+    text-align: left;
+    border-radius: 0 0 5px 5px;
+}
+.banner_featured_post .banner_featured_details {
+    padding: 30px 34px 27px 90px;
+}
+.banner_featured_post .banner_featured_details h4 {
+    font-size: 22px;
+    line-height: 32px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    transition: all 0.3s ease-in-out;
+    font-family: "le-monde-courrier-std-2";
+}
+.banner_featured_post .banner_featured_post_content {
+    font-size: 18px;
+    line-height: 28px;
+    color: #0C1750;
+    font-family: 'ProximaNova-Regular';
+    margin-bottom: 30px;
+}
+.banner_featured_post .banner_featured_details .btnview {
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0.20px;
+    font-weight: 800;
+    color: #0C1750;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-family: "le-monde-courrier-std-2";
+}
+.hero-banner-featured-post h1 {
+    font-size: 42px;
+    line-height: 52px;
+    margin-bottom: 21px;
+    font-family: "le-monde-courrier-std-2";
+    font-weight: 700;
+}
+.hero-banner-featured-post .hero-banner-content {
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: normal;
+    font-family: 'ProximaNova-Medium';
+    margin-bottom: 41px;
+}
+.banner_featured_post .banner_featured_img img {
+    height: 304px;
+    object-fit: cover;
+}
+.hero-banner-featured-post .btnbiew {
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0.20px;
+    font-weight: 800;
+    color: #0C1750;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-family: "le-monde-courrier-std-2";
+}
+.hero-banner-featured-post .btnbiew:hover {
+    color: #f7671e !important;
+}
+.banner_featured_post .banner_featured_img {
+    position: relative;
+}
+.banner_featured_post .banner_featured_img span {
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: #512873;
+    color: #fff;
+    font-family: "le-monde-courrier-std-2";
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 32px;
+    padding: 10px 27px;
+    transform: rotate(90deg) translate(44px, 45px);
+    border-radius: 0px 5px 5px 0px;
+}
+@media(max-width: 991px){
+    .hero-banner-featured-post h1 {
+        font-size: 32px;
+        line-height: 42px;
+    }
+    .hero-banner-featured-post .hero-banner-content {
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .banner_featured_post .banner_featured_details {
+        padding: 30px 34px;
+    }
+    .banner_featured_post .banner_featured_details h4 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .banner_featured_post .banner_featured_post_content {
+        font-size: 16px;
+        line-height: 26px;
+    }
+}
+@media(max-width: 767px){
+    .hero-banner-featured-post h1 {
+        font-size: 28px;
+        line-height: 38px;
+    }
+    .hero-banner-featured-post .hero-banner-content {
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .banner_featured_post .banner_featured_img img {
+	    height: auto;
+	}
+}

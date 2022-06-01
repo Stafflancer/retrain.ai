@@ -1,0 +1,137 @@
+/*Cards with checkmarks*/
+.cards_with_checkmark {
+    padding: 211px 0 180px;
+    position: relative;
+    overflow: hidden;
+}
+.cards_with_checkmark_block {
+    max-width: 1221px;
+    margin: 0 auto;
+}
+.cards_with_checkmark_grid {
+    background: #fff;
+    box-shadow: 5px 5px 5px #00000026;
+    padding: 35px 40px 42px ;
+    margin-bottom: 31px;
+    min-height: 210px;
+    position: relative;
+}
+.cards_with_checkmark:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(https://dev-retrainai.pantheonsite.io/wp-content/uploads/2022/05/Logomark.svg);
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: contain;
+}
+.cards_with_checkmark_grid:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 10px;
+    background: transparent linear-gradient(-90deg, #512873 0%, #BD0362 100%) 0% 0% no-repeat padding-box;
+}
+.cards_with_checkmark_heading h3 {
+    font-size: 22px;
+    font-family: "le-monde-courrier-std-2";
+    font-weight: 700;
+    line-height: 32px;
+    display: inline-block;
+    margin-bottom: 0;
+}
+.cards_with_checkmark_content {
+    font-size: 18px;
+    line-height: 28px;
+    font-family: 'ProximaNova-Regular';
+    color: #0C1750;
+    margin-top: 13px;
+}
+.cards_with_checkmark_heading {
+    display: flex;
+    align-items: center;
+}
+.checkmark-icon {
+    margin-right: 15.6px;
+}
+.core-values-heading {
+    color: #fff;
+    font-size: 33px;
+    line-height: 43px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    font-family: "le-monde-courrier-std-2";
+}
+.content-core {
+    font-size: 20px;
+    line-height: 30px;
+    color: #fff;
+    font-family: 'ProximaNova-Medium';
+}
+.core-values {
+    margin-bottom: 31px;
+}
+.cards_with_checkmark_content p{
+    margin-bottom: 0;
+}
+/*Media Query*/
+
+@media (min-width: 992px) and  (max-width: 1450px){
+    .cards_with_checkmark{
+        padding: 60px 0 30px;
+    }
+    .cards_with_checkmark_grid{
+        padding: 30px;
+    }
+    .cards_with_checkmark_content{
+        font-size: 16px;
+        line-height: 24px;
+    }
+}
+@media (max-width: 991px){
+    .cards_with_checkmark {
+        padding: 40px 0;
+    }
+}
+
+@media (max-width: 767px){
+    .cards_with_checkmark {
+        padding: 30px 0;
+    }
+    .core-values-heading{
+        font-size: 25px;
+        line-height: 30px;
+        margin-bottom: 15px;
+    }
+    .content-core{
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .cards_with_checkmark_grid{
+        height: auto;
+        /*padding: 20px;*/
+        margin-bottom: 20px;
+    }
+    .cards_with_checkmark_content{
+        margin-top: 5px;
+        font-size: 16px;
+        line-height: 24px;
+    }
+}
+@media (max-width: 575px){
+    .cards_with_checkmark_block .col-12:last-child .cards_with_checkmark_grid{
+        margin-bottom: 0;
+    }
+    .cards_with_checkmark_heading h3{
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .cards_with_checkmark_grid {
+        min-height: auto;
+    }
+}
